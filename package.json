@@ -7,7 +7,7 @@
 		"dev": "tsx watch .",
 		"build": "tsup",
 		"start": "node dist/index.js",
-		"format": "biome check --write --no-errors-on-unmatched",
+		"check": "biome check --write --no-errors-on-unmatched",
 		"typecheck": "tsc --noEmit"
 	},
 	"keywords": [],
