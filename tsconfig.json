@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"module": "preserve",
+		"target": "esnext",
+		"types": ["node"],
+		"lib": ["esnext"],
+		"moduleResolution": "bundler",
+
+		"noEmit": true,
+		"incremental": true,
+		"skipLibCheck": true,
+
+		"isolatedModules": true,
+		"moduleDetection": "force",
+		"verbatimModuleSyntax": true,
+
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"paths": {
+			"@/*": ["./src/*"],
+		},
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"],
+}
